@@ -8,3 +8,4 @@ __pycache__/
 .DS_Store
 extract_*.py
 read_*.py
+*.docx
