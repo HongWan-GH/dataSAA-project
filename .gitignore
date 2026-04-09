@@ -1,0 +1,10 @@
+Lecture 8090/
+*.pdf
+.venv/
+__pycache__/
+*.pyc
+*.txt
+*.log
+.DS_Store
+extract_*.py
+read_*.py
