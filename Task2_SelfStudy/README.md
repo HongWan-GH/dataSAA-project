@@ -7,7 +7,7 @@
 This directory demonstrates the practical application of high-efficiency algorithms (Sorting and Prioritization) explored through independent self-study, extending beyond the standard COMP 8090 curriculum to tackle real-world temporal data processing.
 
 ### Concepts Applied:
-- **Max Heap (Priority Queue)**: Extracts the top $k$ most profitable trades immediately in $O(k \log n)$ time, entirely avoiding the overhead of sorting the array O(n \log n) just to find a handful of maximum values.
+- **Max Heap (Priority Queue)**: Extracts the top $k$ most profitable trades immediately in $O(k \log n)$ time, entirely avoiding the overhead of sorting the array $O(n \log n)$ just to find a handful of maximum values.
 - **Quick Sort**: Organizes an unstructured array of stock tracking dates strictly chronologically, efficiently achieving $O(n \log n)$ average runtime.
 
 ## 📖 User Guide
