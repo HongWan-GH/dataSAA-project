@@ -1,7 +1,7 @@
 # Task 1: OOP-based Application Development
 
 ## 🎥 Introduction Video
-> **Task 1 Video Link:** [INSERT YOUR 5-MINUTE YOUTUBE/GOOGLE DRIVE VIDEO LINK HERE]
+> **Task 1 Video Link:** https://youtu.be/eYSb_bpbAUQ
 
 ## Project Overview
 This directory contains a robust, multi-modular Python application for calculating stock profitability across various statement files. It fully utilizes the required Object-Oriented Programming (OOP) paradigms taught in the COMP 8090 course.

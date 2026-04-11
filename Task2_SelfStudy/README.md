@@ -1,7 +1,7 @@
 # Task 2: Advanced Data Structures & Algorithms applied to Real Scenarios
 
 ## 🎥 Introduction Video
-> **Task 2 Video Link:** [INSERT YOUR 5-MINUTE YOUTUBE/GOOGLE DRIVE VIDEO LINK HERE]
+> **Task 2 Video Link:** https://youtu.be/beEFB_INa9g
 
 ## Project Overview
 This directory demonstrates the practical application of high-efficiency algorithms (Sorting and Prioritization) explored through independent self-study, extending beyond the standard COMP 8090 curriculum to tackle real-world temporal data processing.
