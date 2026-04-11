@@ -30,7 +30,7 @@ def main():
             print("Exiting... Goodbye!")
             return
         elif choice == '1':
-            path = "monthly_statements"
+            path = os.path.join(os.path.dirname(__file__), "monthly_statements")
             print("\n--> Auto-loading the 'monthly_statements' sample folder...")
         else:
             print("Invalid option, please try again.")
