@@ -1,6 +1,6 @@
 # Task 1: OOP-based Application Development
 
-## 🎥 Introduction Video
+## Introduction Video
 > **Task 1 Video Link:** https://youtu.be/eYSb_bpbAUQ
 
 ## Project Overview
