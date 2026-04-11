@@ -7,7 +7,7 @@
 This directory contains a robust, multi-modular Python application for calculating stock profitability across various statement files. It fully utilizes the required Object-Oriented Programming (OOP) paradigms taught in the COMP 8090 course.
 
 ### Concepts Applied:
-- **Modules**: Divided cleanly into `main.py`, `models.py`, and `parsers.py`.
+- **Modules**: The system is cleanly modularized. `main.py`, `models.py`, and `parsers.py` handle the core OOP logic, while `max_heap.py` and `quick_sort.py` are integrated as algorithmic utilities to sort trade dates and extract the Top 5 most profitable stocks efficiently.
 - **Encapsulation**: Used in data models and parser wrappers.
 - **Inheritance & Polymorphism**: Handled via abstract base classes (`StatementParser`) and specialized subclasses (`CSVParser`, `PDFParser`).
 - **Methods**: Extensively utilizes magic methods, instance methods, and static methods for internal computation.
