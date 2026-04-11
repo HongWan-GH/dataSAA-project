@@ -4,7 +4,7 @@
 > **Task 2 Video Link:** [INSERT YOUR 5-MINUTE YOUTUBE/GOOGLE DRIVE VIDEO LINK HERE]
 
 ## Project Overview
-This directory demonstrates the practical application of high-efficiency algorithms (Sorting and Prioritization) taught during weeks 4 and 5 of COMP 8090.
+This directory demonstrates the practical application of high-efficiency algorithms (Sorting and Prioritization) explored through independent self-study, extending beyond the standard COMP 8090 curriculum to tackle real-world large-scale data matching.
 
 ### Concepts Applied:
 - **Max Heap (Priority Queue)**: Extracts the top $k$ volatile stocks in $O(k \log n)$ time, directly simulating real-life stock prioritization logic.
