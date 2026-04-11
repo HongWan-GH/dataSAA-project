@@ -1,8 +1,6 @@
 import os
 from models import StockPosition
 from parsers import CSVParser, PDFParser
-from max_heap import MaxHeap
-from quick_sort import quick_sort
 
 def process_file(filepath, password=None):
     """Helper function to parse individual files"""
@@ -65,25 +63,22 @@ def main():
             print("No valid trades found or file could not be parsed.")
             continue
 
-        # Task 2: Algorithm - Sort Trades by date using QuickSort
-        quick_sort(trades, 0, len(trades) - 1)
+        # Sort Trades chronologically by date using Python's built-in sorted (Timsort)
+        trades.sort(key=lambda x: x.date)
         print(f"\nSuccessfully loaded and sorted {len(trades)} trades across all files.")
 
-        # Task 1: Calculate Position
+        # Calculate Position
         positions = {}
         for trade in trades:
             if trade.ticker not in positions:
                 positions[trade.ticker] = StockPosition(trade.ticker)
             positions[trade.ticker].add_trade(trade)
 
-        # Task 2: Data Structure - Use MaxHeap to get Top Profitable Stocks
-        heap = MaxHeap()
-        for pos in positions.values():
-            if pos.profit > 0:
-                heap.insert(pos)
+        # Get Top 5 Profitable Stocks using pure Python primitives
+        profitable_positions = [pos for pos in positions.values() if pos.profit > 0]
+        top_stocks = sorted(profitable_positions, key=lambda x: x.profit, reverse=True)[:5]
 
         print("\n--- TOP PROFITABLE STOCKS ---")
-        top_stocks = heap.get_top_n(5)
         if top_stocks:
             for i, stock in enumerate(top_stocks, 1):
                 print(f"{i}. {stock}")
