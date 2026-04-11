@@ -9,3 +9,5 @@ __pycache__/
 extract_*.py
 read_*.py
 *.docx
+*Report*
+*Video_Script*
